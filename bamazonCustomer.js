@@ -8,7 +8,7 @@ var connection = mysql.createConnection({
 
     user: "root",
 
-    password: "Maybachhab17!",
+    password: "",
     database: "bamazon_DB"
 });
 
@@ -39,5 +39,7 @@ function start() {
             }
         })
 }
+
+function idProducts() {}
 
 
